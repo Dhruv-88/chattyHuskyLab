@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chattyHuskyLab/static/css/main.f855e6bc.css",
-    "main.js": "/chattyHuskyLab/static/js/main.e331c680.js",
+    "main.css": "/chattyHuskyLab/static/css/main.708ea2ab.css",
+    "main.js": "/chattyHuskyLab/static/js/main.1ca9dbbb.js",
     "static/js/453.757bcc0e.chunk.js": "/chattyHuskyLab/static/js/453.757bcc0e.chunk.js",
-    "static/media/logo.svg": "/chattyHuskyLab/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/logo.png": "/chattyHuskyLab/static/media/logo.4d031dc563d2a25ed7eb.png",
     "index.html": "/chattyHuskyLab/index.html",
-    "main.f855e6bc.css.map": "/chattyHuskyLab/static/css/main.f855e6bc.css.map",
-    "main.e331c680.js.map": "/chattyHuskyLab/static/js/main.e331c680.js.map",
+    "main.708ea2ab.css.map": "/chattyHuskyLab/static/css/main.708ea2ab.css.map",
+    "main.1ca9dbbb.js.map": "/chattyHuskyLab/static/js/main.1ca9dbbb.js.map",
     "453.757bcc0e.chunk.js.map": "/chattyHuskyLab/static/js/453.757bcc0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e331c680.js"
+    "static/css/main.708ea2ab.css",
+    "static/js/main.1ca9dbbb.js"
   ]
 }
