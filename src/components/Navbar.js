@@ -20,8 +20,10 @@ const Navbar = () => {
     <header className="header">
       <nav className="nav container">
         <NavLink to="/chattyHuskyLab" className="nav__logo">
-          <img src={logo} style={{height:'10vh',width:'10vh'}}/>
+          <img src={logo} style={{height:'13vh',width:'13vh'}}/>
+          <h2>Chatty Husky AI</h2>
         </NavLink>
+        
 
         <div
           className={`nav__menu ${showMenu ? "show-menu" : ""}`}

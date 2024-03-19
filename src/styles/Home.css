@@ -49,6 +49,218 @@
                     color:white;
                     margin-top:4vh;
                 }
+    
+                
+     /* #Section 2             */
+    .Section2{
+        height:100vh;
+        width:100vw;
+        disppl:flex;
+        justify-content:center;
+        align-items:center;
+        padding:0vw 10vw 0vw 10vw;
+    } 
+
+        .subsectionOne{
+            height:15vh;
+            width:80vw;
+            display:flex;
+            align-self:center;
+            border-left:1px solid black;
+        }
+
+        .subsectionTwo{
+            height:70vh;
+            width:80vw;
+            display:flex;
+            align-self:center;
+            
+        }
+
+                .subsectionTwoLeft{
+                   height:70vh;
+                   width:50vw;
+                   /* border:1px solid red;  */
+                   background-image: linear-gradient(to left, #ececec 50%, transparent 50%);
+                   disply:flex;
+                   justify-content:center;
+                   align-items:center;
+                   padding:10vh 2.5vw 10vh 2.5vw;
+                }
+
+                        .stlsub{
+                           height:50vh;
+                           width:45vw;
+                           /* border:1px solid green; */
+                           align-self:center;
+                        }
+
+                                .stlTextbox1{
+                                    height:10vh;
+                                    width:20vw;
+                                    /* border:1px solid black; */
+                                    display:flex;
+                                    justify-content: end;
+                                    flex-direction:column;
+                                }
+
+                                
+
+
+
+                                .stlTextbox2{
+                                    height:10vh;
+                                    width:35vw;
+                                    /* border:1px solid black; */
+                                }
+
+                                .stlTextbox3{
+                                    height:30vh;
+                                    width:45vw;
+                                    /* border:1px solid black; */
+                                    display:flex;
+                                    flex-direction:row;
+                                    align-items:end;
+                                }
+
+                                    .stlt3Left{
+                                        height:30vh;
+                                        width:8vw;
+                                        border-top:1px solid black;
+                                    }
+
+                                    .stlt3Right{
+                                        padding:1vh;
+                                        height:30vh;
+                                        width:37vw;
+                                        /* border:1px solid purple; */
+                                        
+
+                                    }
+
+
+                .subsectionTwoRight{
+                    height:70vh;
+                    width:30vw;
+                    /* border:1px solid red; */
+                    
+                }
+
+
+        .subsectionThree{
+            height:15vh;
+            width:80vw;
+            display:flex;
+            align-self:center;
+            border-right:1px solid black;
+        }
+    
+    .Section3{
+        height:100vh;
+        width:100vw;
+
+    }  
+
+        .subsectionOnefor3{
+            height:15vh;
+            width:80vw;
+            display:flex;
+            align-self:center;
+            
+        }
+
+        .subsectionTwoLeftfor3{
+            height:70vh;
+            width:50vw;
+            /* border:1px solid red;  */
+            background-image: linear-gradient(to right, #ececec 50%, transparent 50%);
+            disply:flex;
+            justify-content:center;
+            align-items:center;
+            padding:10vh 2.5vw 10vh 2.5vw;
+         }
+
+                .stlsubfor3{
+                    height:50vh;
+                    width:45vw;
+                    /* border:1px solid green; */
+                    align-self:center;
+                    display:flex;
+                    flex-direction:column;
+                    
+                }
+
+                        .stlTextbox1for3{
+                            height:10vh;
+                            width:20vw;
+                            /* border:1px solid black; */
+                            display:flex;
+                            justify-content: end;
+                            flex-direction:column;
+                            align-self:end;
+                            align-items:end;
+                        }
+
+                        .stlTextbox2for3{
+                            height:8vh;
+                            width:35vw;
+                            display:flex;
+                            justify-content: top;
+                            flex-direction:column;
+                            align-self:end;
+                            align-items:end;
+                            /* border:1px solid black; */
+
+                        }
+
+                        .stlt3Rightfor3{
+                            padding:1vh;
+                            height:30vh;
+                            width:37vw;
+                            justify-content:;
+                            text-align:right;
+                            /* border:1px solid black; */
+                            
+                        }
+
+                        .stlTextbox3for3{
+                            height:30vh;
+                            width:45vw;
+                            /* border:1px solid black; */
+                            display:flex;
+                            flex-direction:column;
+                            align-items:end;
+                        }
+
+                        .stlTextbox1, .stlTextbox1for3 text{
+                            font-size:4vh;
+                        }
+
+                        .stlt3Right, .stlt3Rightfor3 p {
+                            font-size:3vh;
+                        } 
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
 
 @media screen and (max-width:767px) {
     .subtitleOne{

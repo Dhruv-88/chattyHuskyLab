@@ -13,7 +13,7 @@
     text-decoration: none;
   }
 .header {
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     left: 0;
@@ -31,10 +31,17 @@
   }
   
   .nav__logo {
-    color: var(--first-color);
+    color: white;
     transition: color 0.4s;
-    font-size: var(--h2-font-size);
-    font-family: var(--second-font);
+    font-size: 2vh;
+    display:flex;
+    justify-content:center;
+    
+  }
+
+  .nav__logo h2{
+    /* border:1px solid black; */
+    align-self:center;
   }
   
   .nav__toggle,
@@ -77,9 +84,9 @@
       row-gap: 1rem;
     }
   
-    .nav__link{
+    /* .nav__link{
         font-size: 100px;
-    }
+    } */
 
     .nav__cta {
       font-size: 100px;
@@ -104,6 +111,7 @@
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
     transition: color 0.4s;
+    font-size:3vh;
   }
   
   .nav__link:hover {
