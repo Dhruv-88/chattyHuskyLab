@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/chattyHuskyLab/static/css/main.d6c629eb.css",
-    "main.js": "/chattyHuskyLab/static/js/main.e669d2b5.js",
+    "main.css": "/chattyHuskyLab/static/css/main.77c80340.css",
+    "main.js": "/chattyHuskyLab/static/js/main.9dd9d616.js",
     "static/js/453.757bcc0e.chunk.js": "/chattyHuskyLab/static/js/453.757bcc0e.chunk.js",
     "static/media/chatbot_2.jpg": "/chattyHuskyLab/static/media/chatbot_2.5b7485e99ab5ca6b843a.jpg",
     "static/media/logo.png": "/chattyHuskyLab/static/media/logo.4d031dc563d2a25ed7eb.png",
+    "static/media/llm.jpeg": "/chattyHuskyLab/static/media/llm.4a9275adb6e003b52182.jpeg",
+    "static/media/chatbot.png": "/chattyHuskyLab/static/media/chatbot.183d2025da1baaa22481.png",
     "index.html": "/chattyHuskyLab/index.html",
-    "main.d6c629eb.css.map": "/chattyHuskyLab/static/css/main.d6c629eb.css.map",
-    "main.e669d2b5.js.map": "/chattyHuskyLab/static/js/main.e669d2b5.js.map",
+    "main.77c80340.css.map": "/chattyHuskyLab/static/css/main.77c80340.css.map",
+    "main.9dd9d616.js.map": "/chattyHuskyLab/static/js/main.9dd9d616.js.map",
     "453.757bcc0e.chunk.js.map": "/chattyHuskyLab/static/js/453.757bcc0e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6c629eb.css",
-    "static/js/main.e669d2b5.js"
+    "static/css/main.77c80340.css",
+    "static/js/main.9dd9d616.js"
   ]
 }
