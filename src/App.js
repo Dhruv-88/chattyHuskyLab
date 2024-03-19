@@ -1,17 +1,22 @@
-import logo from './logo.png';
-import './App.css';
 
-function App() {
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './components/Home.js';
+import OurTeam from './components/OurTeam.js';
+import AboutUs from './components/AboutUs.js';
+import Projects from './components/Projects.js';
+
+
+const App = () => {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Chatty Husky is ready to change the chat industry with AI !!
-        </p>
-        
-      </header>
-    </div>
+    <Router  >
+      <Routes>
+        <Route path="/chattyHuskyLab" element={<Home />} exact />
+        <Route path="/chattyHuskyLab/ourteam" element={<OurTeam/>} />
+        <Route path="/chattyHuskyLab/aboutus" element={<AboutUs />} />
+        <Route path="/chattyHuskyLab/projects" element={<Projects/>} />
+      </Routes>
+    </Router>
   );
 }
 

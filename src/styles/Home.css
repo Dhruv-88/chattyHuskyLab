@@ -1,0 +1,85 @@
+
+
+.Section1{
+    height:100vh;
+    width:100vw;
+    background-repeat:no-repeat;
+    background-image:url('../Assets/chatbot_2.jpg');
+    background-size:100vw 100vh;
+    position: relative;
+    
+}
+
+        .SectionOneContainer{
+            position: absolute;
+            /* border:1px solid red; */
+            width:50vw;
+            top:45vh;
+            left:10vw;
+            
+        }
+
+                .subtitleOne{
+                    /* border:1px solid white; */
+                    height:6vh;
+                    width:20vw;
+                    font-size:4vh;
+                    color:white;
+                    display:flex;
+                    justify-content: end;
+                    flex-direction:column;
+                    
+                }
+
+                .subtitleTwo{
+                    /* border:1px solid white; */
+                    height:15vh;
+                    width:50vw;
+                    font-size:7vh;
+                    color:white;
+                    display:flex;
+                    flex-direction:column;
+                }
+
+                .subtitleThree{
+                    /* border:1px solid white; */
+                    height:10vh;
+                    width:70vw;
+                    font-size:3vh;
+                    color:white;
+                    margin-top:4vh;
+                }
+
+@media screen and (max-width:767px) {
+    .subtitleOne{
+        /* border:1px solid white; */
+        height:6vh;
+        width:20vw;
+        font-size:3vh;
+    
+    }
+    .subtitleTwo{
+        /* border:1px solid white; */
+        height:9vh;
+        width:80vw;
+        font-size:4.5vh;
+        color:white;
+        display:flex;
+        flex-direction:column;
+    }
+
+    .subtitleThree{
+        /* border:1px solid white; */
+        height:10vh;
+        width:80vw;
+        font-size:2vh;
+        color:white;
+        margin-top:3vh;
+    }
+
+
+    }
+
+
+
+
